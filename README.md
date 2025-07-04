@@ -29,7 +29,7 @@ A simple and efficient task management application that helps individuals and te
 
 ```bash
 git clone https://github.com/mahmoudabubakr/Task-Managment-System
-cd task-management-system
+cd client
 npm install
 npm run dev
 
