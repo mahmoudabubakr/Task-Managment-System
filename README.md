@@ -19,9 +19,9 @@ A simple and efficient task management application that helps individuals and te
 
 - ⚛️ React.js (Frontend)
 - 💨 Tailwind CSS (Styling)
-- 📦 Vite / CRA (Build system)
-- 🗂️ Zustand / Redux (State management) *(depending on what you used)*
-- 🔥 Firebase / JSON Server / Node.js API (Backend - optional)
+- 📦 Vite (Build system)
+- 🗂️ Redux (State management)
+- 🔥 JSON Server / Node.js API (Backend - optional)
 
 ---
 
@@ -40,5 +40,19 @@ In a separate terminal:
 cd server
 npm install
 npm start
+
+---
+Task-Managment-System/
+│
+├── client/               # React frontend (Vite)
+│   ├── src/
+│   └── ...
+│
+├── server/               # Express backend
+│   ├── routes/
+│   └── ...
+│
+├── README.md
+└── package.json (if root-managed)
 
 
